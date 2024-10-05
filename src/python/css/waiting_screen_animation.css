@@ -7,13 +7,13 @@
     --animation-duration: 3s;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     :root {
         --bar-left-color:rgb(255, 59, 59);
         --bar-mid-color: rgb(59, 59, 255);
         --bar-right-color: rgb(95, 255, 95);
     }
-}
+} */
 .waiting_screen_animation {
     display:inline-block;
     height:var(--bar-height);

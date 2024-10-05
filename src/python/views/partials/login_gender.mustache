@@ -10,10 +10,25 @@
     {{/form_gender_select}}
     
     <h2>Are you earnest about this?</h2>
-    {{#form_gender}}
+    {{#form_earnest}}
         <input type="{{type}}" id="{{id}}" name="{{name}}" value="{{value}} " {{#required}}required{{/required}}>
         <label for="{{id}}">{{label}}</label>
-    {{/form_gender}}
+        
+        <div id="additional-question">
+            <h3>What makes you so earnest?</h3>
+            <textarea id="earnest-reason" name="earnest-reason" rows="4" cols="50"></textarea>
+        </div>
+    {{/form_earnest}}
+
     
     <button>Submit</button>
 </form>
+
+    <script>
+        document.getElementById('form_earnest').addEventListener('change', function(e) {
+            if (e.target.name === 'earnest') {
+                document.getElementById('additional-question').style.display = 
+                    e.target.value === 'true' ? 'block' : 'none';
+            }
+        });
+    </script>

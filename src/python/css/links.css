@@ -3,12 +3,12 @@
     --link-color-active: white;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     :root {
         --link-color:rgb(31, 31, 31);
         --link-color-active:black;
     }
-}
+} */
 .back_link {
     color: var(--link-color);
     font-size: 30px;

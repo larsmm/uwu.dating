@@ -1,7 +1,7 @@
 {
     "template": "views/templates/chat.mustache",
     "banner": {
-        "title": "UwU.tours",
-        "dect": "DECT 3276"
+        "title": "UwU Dating",
+        "dect": "DECT 4334"
     }
 }

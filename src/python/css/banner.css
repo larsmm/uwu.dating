@@ -6,7 +6,7 @@
     --dect-pos-top: 2vh;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     :root {
         --heading-color:#5d00e8;
         --heading-background-color: #b57c7c;
@@ -15,7 +15,7 @@
         text-shadow: 0 0 190px var(--heading-color), 0 0 90px var(--heading-color), 0 0 70px var(--heading-color)!important;
     }
 
-}
+} */
 
 @media only screen and (max-width: 90vh) {
     :root {
@@ -30,7 +30,7 @@
 }
 .dect {
     font-family: 'DSEG14Classic', sans-serif;
-    font-size: 48px;
+    font-size: 20px;
     color: var(--heading-color);
     position: absolute;
     top: var(--dect-pos-top);

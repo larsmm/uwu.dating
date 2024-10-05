@@ -5,7 +5,7 @@
 
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     :root {
         --body-bg: #ffb4ae;
         --maincontent-bg:rgb(240, 240, 240);
@@ -17,7 +17,7 @@
         border-width: 1px;
 
     }
-}
+} */
 @media only screen and (max-width: 70vh) {
     h2 {
         padding:10px;

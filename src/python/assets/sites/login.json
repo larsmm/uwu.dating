@@ -1,8 +1,8 @@
 {
     "template": "views/templates/login.mustache",
     "banner": {
-        "title": "UwU.tours",
-        "dect": "DECT 3276"
+        "title": "UwU Dating",
+        "dect": "DECT 4334"
     },
     "forms": {
         "form_gender_select": {
@@ -12,22 +12,25 @@
                     {"value": "uwu", "html": "UwU"},
                     {"value": "owo", "html": "OwO"},
                     {"value": "uwu_angry", "html": "ÙwÚ"},
-                    {"value": "uwu_angry_2", "html": "ÒwÓ"},
-                    {"value": "uwu_tired", "html": "Úwù"},
+                    {"value": "owo_angry", "html": "ÒwÓ"},
+                    {"value": "uwu_tired", "html": "ÚwÙ"},
                     {"value": "owo_tired", "html": "ÓwÒ"},
                     {"value": "not_today", "html": "Not today"},
-                    {"value": "wednesday", "html": "Wednesday"},
                     {"value": "dunno", "html": "Dunno"},
                     {"value": "over_rated", "html": "Over rated"},
                     {"value": "404", "html": "404"},
-                    {"value": "301", "html": "301"},
-                    {"value": "cduwu", "html": "cduwu"},
-                    {"value": "castle", "html": "My gender is in another castle"},
+                    {"value": "sql", "html": "105; DROP TABLE UWU;"},
+                    {"value": "gespenst", "html": "Gespenst"},
+                    {"value": "not_important", "html": "Not important"},
                     {"value": "yes", "html": "Yes"},
                     {"value": "no", "html": "No"},
+                    {"value": "1_Maat", "html": "1. Maat"},
+                    {"value": "2_Maat", "html": "2. Maat"},
+                    {"value": "42_Maat", "html": "42. Maat"},
                     {"value": "maybe", "html": "Maybe"},
-                    {"value": "yesnomaybe", "html": "Yes, No, Maybe"},
-                    {"value": "diverse", "html": "Diverse"}
+                    {"value": "null", "html": "NULL"},
+                    {"value": "divers", "html": "Divers"},
+                    {"value": "diverse", "html": "diverse"}
             ]
         },
         "form_gender": [

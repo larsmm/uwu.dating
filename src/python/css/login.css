@@ -7,7 +7,7 @@
 }
 
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     :root {
         --body-bg: #ffb4ae;
         --main-text-color:black;
@@ -18,7 +18,7 @@
         border-width: 1px;
 
     }
-}
+} */
 
 @font-face {
     font-family: 'Oxanium';
